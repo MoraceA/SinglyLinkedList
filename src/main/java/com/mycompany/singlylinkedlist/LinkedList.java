@@ -86,14 +86,13 @@ public class LinkedList {
         }
     }
         static boolean isPrime(int n) {
-    // Corner cases
+
     if (n <= 1)
         return false;
     if (n <= 3)
         return true;
  
-    // This is checked so that we can skip
-    // middle five numbers in below loop
+
     if (n % 2 == 0 || n % 3 == 0)
         return false;
  
